@@ -1,11 +1,11 @@
 {
     "name": "codern/big-files-upload",
     "require": {
-        "moxiecode/plupload": "3.0.*",
+        "moxiecode/plupload": "3.*",
         "php": ">=5.3.0"
     },
     "require-dev": {
-        "moxiecode/plupload": "3.0.*"
+        "moxiecode/plupload": "3.*"
     },
     "authors": [
         {
