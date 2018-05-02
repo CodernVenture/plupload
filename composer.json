@@ -1,5 +1,5 @@
 {
-  "name": "codern/plupload",
+  "name": "codern/big-files-upload",
   "description": "none",
   "type": "package",
   "require": {
@@ -20,7 +20,8 @@
   "prefer-stable": true,
   "autoload": {
     "psr-4": {
-      "Codern\\": "src"
+      "Codern\\": "big-files-upload/src"
+
     }
   }
 }
