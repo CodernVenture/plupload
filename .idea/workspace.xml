@@ -2,109 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18d99395-6085-4133-8986-78f3bbf5a58a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/composerJson.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/upload.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/composer.lock" />
       <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change beforePath="$PROJECT_DIR$/src/BigFilesUpload.php" afterPath="$PROJECT_DIR$/plupload/src/BigFilesUpload.php" />
-      <change beforePath="$PROJECT_DIR$/tests/test.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/bower.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/examples/custom.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/examples/dump.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/examples/events.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/examples/jquery/all_runtimes.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/examples/jquery/jquery_ui_widget.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/examples/jquery/queue_widget.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/examples/jquery/s3.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/examples/upload.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/Moxie.swf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/Moxie.xap" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/ar.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/az.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/bg.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/bs.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/ca.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/cs.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/cy.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/da.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/de.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/el.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/en.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/es.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/et.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/fa.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/fi.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/fr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/he.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/hr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/hu.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/hy.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/id.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/it.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/ja.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/ka.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/kk.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/km.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/ko.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/ku_IQ.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/lt.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/lv.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/ms.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/nl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/pl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/pt.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/pt_BR.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/ro.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/ru.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/sk.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/sl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/sq.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/sr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/sv.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/th_TH.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/tr.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/uk_UA.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/vi.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/zh_CN.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/i18n/zh_TW.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/jquery.plupload.queue/css/jquery.plupload.queue.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/jquery.plupload.queue/img/backgrounds.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/jquery.plupload.queue/img/buttons-disabled.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/jquery.plupload.queue/img/buttons.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/jquery.plupload.queue/img/delete.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/jquery.plupload.queue/img/done.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/jquery.plupload.queue/img/error.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/jquery.plupload.queue/img/throbber.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/jquery.plupload.queue/img/transp50.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/jquery.plupload.queue/jquery.plupload.queue.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/jquery.plupload.queue/jquery.plupload.queue.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/jquery.ui.plupload/css/jquery.ui.plupload.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/jquery.ui.plupload/img/loading.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/jquery.ui.plupload/img/plupload.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/jquery.ui.plupload/jquery.ui.plupload.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/jquery.ui.plupload/jquery.ui.plupload.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/moxie.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/moxie.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/plupload.dev.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/plupload.full.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/js/plupload.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/license.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/moxiecode/plupload/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -119,18 +18,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="528">
-              <caret line="22" column="15" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="BigFilesUpload.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plupload/src/BigFilesUpload.php">
+        <entry file="file://$PROJECT_DIR$/src/BigFilesUpload.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -147,9 +56,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/big-files-upload/composer.json" />
         <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -270,12 +179,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6895000" />
+    <option name="totallyTimeSpent" value="6919000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25266525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25266525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -397,7 +307,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plupload/src/BigFilesUpload.php">
+    <entry file="file://$PROJECT_DIR$/src/BigFilesUpload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -408,7 +318,68 @@
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
-          <caret line="22" column="15" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/big-files-upload/composer.json" />
+    <entry file="file://$PROJECT_DIR$/mylibrary/src/YourClass.php" />
+    <entry file="file://$PROJECT_DIR$/big-files-upload/composer.json" />
+    <entry file="file://$PROJECT_DIR$/mylibrary/composer.json" />
+    <entry file="file://$PROJECT_DIR$/codern/src/YourClass.php" />
+    <entry file="file://$PROJECT_DIR$/big-files-upload/tests/test.php" />
+    <entry file="file://$PROJECT_DIR$/big-files-upload/src/BigFilesUpload.php" />
+    <entry file="file://$PROJECT_DIR$/big-files-upload/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/big-files-upload/README.md" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/big-files-upload/composer.json" />
+    <entry file="file://$PROJECT_DIR$/src/BigFilesUpload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/big-files-upload/composer.json" />
+    <entry file="file://$PROJECT_DIR$/mylibrary/src/YourClass.php" />
+    <entry file="file://$PROJECT_DIR$/big-files-upload/composer.json" />
+    <entry file="file://$PROJECT_DIR$/mylibrary/composer.json" />
+    <entry file="file://$PROJECT_DIR$/codern/src/YourClass.php" />
+    <entry file="file://$PROJECT_DIR$/big-files-upload/tests/test.php" />
+    <entry file="file://$PROJECT_DIR$/big-files-upload/src/BigFilesUpload.php" />
+    <entry file="file://$PROJECT_DIR$/big-files-upload/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/big-files-upload/README.md" />
+    <entry file="file://$PROJECT_DIR$/big-files-upload/composer.json" />
+    <entry file="file://$PROJECT_DIR$/plupload/src/BigFilesUpload.php" />
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
           <folding />
         </state>
       </provider>
