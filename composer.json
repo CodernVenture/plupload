@@ -1,24 +1,26 @@
 {
-    "name": "codern/big-files-upload",
-    "require": {
-        "moxiecode/plupload": "3.1.*",
-        "php": ">=5.3.0"
-    },
-    "require-dev": {
-        "moxiecode/plupload": "3.1.*"
-    },
-    "authors": [
-        {
-            "name": "Codern Venture",
-            "email": "codern.venture@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "autoload": {
-        "psr-0": {
-            "Codern\\": "src"
-        }
+  "name": "codern/plupload",
+  "description": "none",
+  "type": "package",
+  "require": {
+    "moxiecode/plupload": "^3.1",
+    "php": ">= 5.6"
+  },
+  "require-dev": {
+    "moxiecode/plupload": "3.*",
+    "phpunit/phpunit": "5.*"
+  },
+  "authors": [
+    {
+      "name": "Codern venture",
+      "email": "codern.venture@gmail.com"
     }
-
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "Codern\\": "plupload/src"
+    }
+  }
 }
