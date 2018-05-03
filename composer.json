@@ -3,12 +3,10 @@
   "description": "none",
   "type": "package",
   "require": {
-    "moxiecode/plupload": "^3.1",
     "php": ">= 5.6"
   },
   "require-dev": {
-    "moxiecode/plupload": "3.*",
-    "phpunit/phpunit": "5.*"
+    "php": ">= 5.6"
   },
   "authors": [
     {
