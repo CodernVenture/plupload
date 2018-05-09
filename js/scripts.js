@@ -1,9 +1,9 @@
 
 function initPlupload(filterMimeTypes){
 
-    //
+    // tipurile de fisiere acceptate
     var initFilterMimeTypes = (typeof filterMimeTypes == 'undefined')? [] : jQuery.parseJSON(filterMimeTypes);
-
+    // console.log(initFilterMimeTypes);
     var uploader = new plupload.Uploader({
         runtimes : 'html5,flash,silverlight,html4',
         browse_button : 'pickfiles', // you can pass an id...
@@ -29,9 +29,10 @@ function initPlupload(filterMimeTypes){
                 document.getElementById('filelist').innerHTML = '';
 
                 document.getElementById('uploadfiles').onclick = function() {
-                    var dosar = $(this).attr('data-did');
-                    var module = $(this).attr('data-module');
-                    uploader.settings.url = uploader.settings.url+'?dossier='+dosar+'&module='+module;
+                    //adaugare parametrii la urlul obiectului
+                    // var dosar = $(this).attr('data-did');
+                    // var module = $(this).attr('data-module');
+                    // uploader.settings.url = uploader.settings.url+'?dossier='+dosar+'&module='+module;
                     uploader.start();
                     return false;
                 };
@@ -40,7 +41,7 @@ function initPlupload(filterMimeTypes){
             FilesAdded: function(up, files) {
                 plupload.each(files, function(file) {
                     // redenumire fisier la upload in id inregistrare+ numefisier
-                    file.name = recordId + '-' + file.name;
+                    // file.name = recordId + '-' + file.name;
                     document.getElementById('filelist').innerHTML += '<div id="' + file.id + '">' + file.name + ' (' + plupload.formatSize(file.size) + ') <b></b></div>';
                 });
             },
@@ -54,7 +55,8 @@ function initPlupload(filterMimeTypes){
             },
 
             UploadComplete: function(up, files){
-                location.reload();
+                //reload page on upload finish
+                // location.reload();
             }
         }
     });
