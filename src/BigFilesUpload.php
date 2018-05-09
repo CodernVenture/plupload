@@ -56,7 +56,7 @@ class BigFilesUpload
      * @param array $parametersOfUpload
      * 'target_dir'=>uploaddirectory,
      * 'allow_extensions'=> extensii acceptate (sub forma extensie , extensie)
-     * @return string json 
+     * @return string json
      */
     static function uploadFiles(array $parametersOfUpload = array())
     {
