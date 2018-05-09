@@ -1,6 +1,7 @@
 <?php
 
 namespace Codern;
+
 define('PLUPLOAD_MOVE_ERR', 103);
 define('PLUPLOAD_INPUT_ERR', 101);
 define('PLUPLOAD_OUTPUT_ERR', 102);
@@ -10,6 +11,7 @@ define('PLUPLOAD_UNKNOWN_ERR', 111);
 define('PLUPLOAD_SECURITY_ERR', 105);
 
 define('DS', DIRECTORY_SEPARATOR);
+
 use Exception;
 
 class BigFilesUpload
@@ -22,14 +24,14 @@ class BigFilesUpload
         'Image files' => array('jpg', 'jpe', 'jpeg', 'gif', 'bmp', 'png')
     );
 
-    const uploadDirectory = 'uploads';
+    static $uploadDirectory = 'uploads';
 
     /**
      *
      */
     static function getAllowedUploadFileTypesJSON()
     {
-        $extensions = BigFilesUpload::$acceptedFilesToUpload;
+        $extensions = self::$acceptedFilesToUpload;
         $allowedExtensions = array();
         foreach ($extensions as $fileType => $ext) {
             $newExt['title'] = $fileType;
@@ -45,19 +47,34 @@ class BigFilesUpload
         $extensions = self::$acceptedFilesToUpload;
         $allowedExtensions = array();
         foreach ($extensions as $fileType => $ext) {
-            $newExt['title'] = $fileType;
-            $newExt['extensions'] = implode(',', $ext);
-            $allowedExtensions[] = $newExt;
+            $allowedExtensions = array_merge($allowedExtensions, $ext);
         }
-        return json_encode($allowedExtensions);
+        return implode(',', $allowedExtensions);
     }
 
-    function uploadFiles()
+    /**
+     * @param array $parametersOfUpload
+     * 'target_dir'=>uploaddirectory,
+     * 'allow_extensions'=> extensii acceptate (sub forma extensie , extensie)
+     * @return string json 
+     */
+    static function uploadFiles(array $parametersOfUpload = array())
     {
+        // luam defaulturi daca nu sunt setate,
+        // directorul de upload
+        // si extensiile permise
+        if (!isset($parametersOfUpload['target_dir'])) {
+            $parametersOfUpload['target_dir'] = self::$uploadDirectory;
+        }
+
+        if (!isset($parametersOfUpload['allow_extensions'])) {
+            $parametersOfUpload['allow_extensions'] = self::getAllowedUploadFileTypes();
+        }
+
 
         $bfu = new BigFilesUpload(array(
-            'target_dir' => self::uploadDirectory,
-            'allow_extensions' => 'jpg,jpeg,png'
+            'target_dir' => $parametersOfUpload['target_dir'],
+            'allow_extensions' => $parametersOfUpload['allow_extensions']
         ));
 
         $bfu->sendNoCacheHeaders();
@@ -103,7 +120,8 @@ class BigFilesUpload
             array(
                 'file_data_name' => 'file',
                 'tmp_dir' => ini_get("upload_tmp_dir") . DS . "plupload",
-                'target_dir' => false,
+//                'target_dir' => false,
+                'target_dir' => self::$uploadDirectory,
                 'cleanup' => true,
                 'max_file_age' => 5 * 3600, // in hours
                 'max_execution_time' => 5 * 60, // in seconds (5 minutes by default)

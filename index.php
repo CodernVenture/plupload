@@ -1,7 +1,6 @@
 <?php
 require_once ('src/BigFilesUpload.php');
-
-$allowedExtensions=\Codern\BigFilesUpload::getAllowedUploadFileTypesJSON();
+$allowedExtensions = \Codern\BigFilesUpload::getAllowedUploadFileTypesJSON();
 
 echo '  
                 
