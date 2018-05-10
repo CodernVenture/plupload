@@ -2,7 +2,6 @@
 
   "name": "codern/plupload",
   "description": "implementation of <a href='https://github.com/moxiecode/plupload'>PlUpload</a>",
-  "type": "package",
   "require": {
     "composer/installers": "1.*"
   },
