@@ -1,7 +1,6 @@
 {
 
   "name": "codern/plupload",
-  "version": "1.0.0",
   "description": "implementation of <a href='https://github.com/moxiecode/plupload'>PlUpload</a>",
   "type": "package",
   "require": {
