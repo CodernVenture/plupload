@@ -22,10 +22,8 @@
       "Codern\\": "src"
     }
   },
-  "extra": {
-    "installer-paths": {
-      "vendor-dir": ["codern"]
-    }
+  "config": {
+    "vendor-dir": "testinggg"
   }
 
 }
