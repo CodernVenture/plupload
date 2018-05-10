@@ -20,7 +20,12 @@
   "autoload": {
     "psr-4": {
       "Codern\\": "src"
-
+    }
+  },
+  "extra": {
+    "installer-paths": {
+      "your/custom/path/{$name}/": ["vendor:codern"]
     }
   }
+
 }
