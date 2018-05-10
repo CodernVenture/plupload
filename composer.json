@@ -4,10 +4,10 @@
   "description": "implementation of <a href='https://github.com/moxiecode/plupload'>PlUpload</a>",
   "type": "package",
   "require": {
-    "composer/installers": "^1.2"
+    "composer/installers": "1.*"
   },
   "require-dev": {
-    "composer/installers": "^1.2"
+    "composer/installers": "1.*"
   },
   "authors": [
     {
