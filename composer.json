@@ -24,7 +24,7 @@
   },
   "extra": {
     "installer-paths": {
-      "your/custom/path/{$name}/": ["vendor:codern"]
+      "your/custom/path/{$name}/": ["codern"]
     }
   }
 
