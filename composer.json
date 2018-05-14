@@ -1,7 +1,7 @@
 {
 
   "name": "codern/plupload",
-  "description": "implementation of <a href='https://github.com/moxiecode/plupload'>PlUpload</a>",
+  "description": "implementation of [github.com/moxiecode/plupload](<a href='https://github.com/moxiecode/plupload'>PlUpload</a>)",
   "license": "MIT",
   "require": {
 
