@@ -1,7 +1,3 @@
-custom implementation of 
-plupload
-https://github.com/moxiecode/plupload
-
 # Plupload (Laravel 5 Package)
 
 [![Latest Stable Version](https://poser.pugx.org/codern/plupload/v/stable)](https://packagist.org/packages/codern/plupload) 
