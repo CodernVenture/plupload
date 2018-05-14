@@ -1,4 +1,4 @@
-# Plupload (Laravel 5 Package)
+# Plupload 
 
 [![Latest Stable Version](https://poser.pugx.org/codern/plupload/v/stable)](https://packagist.org/packages/codern/plupload) 
 [![Total Downloads](https://poser.pugx.org/codern/plupload/downloads)](https://packagist.org/packages/codern/plupload) 
@@ -11,16 +11,6 @@ plupload is a custom implementation of the package  [![moxiecode/plupload]](http
 
 - [Installation](#installation)
 - [Usage](#usage)
-    - [Concepts](#concepts)
-        - [Checking for Roles & Permissions](#checking-for-roles--permissions)
-        - [User ability](#user-ability)
-    - [Blade templates](#blade-templates)
-    - [Middleware](#middleware)
-    - [Short syntax route filter](#short-syntax-route-filter)
-    - [Route filter](#route-filter)
-- [Troubleshooting](#troubleshooting)
-- [License](#license)
-- [Contribution guidelines](#contribution-guidelines)
 - [Additional information](#additional-information)
 
 ## Installation
@@ -37,4 +27,10 @@ plupload is a custom implementation of the package  [![moxiecode/plupload]](http
 ## Usage
 
 1) You have a functional custom example in examples directory just run index.php
+
+
+
+## Additional informationage
+
+1) Documentation of [![moxiecode/plupload]](https://github.com/moxiecode/plupload/wiki)
 
