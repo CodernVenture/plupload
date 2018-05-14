@@ -3,10 +3,10 @@
   "name": "codern/plupload",
   "description": "implementation of <a href='https://github.com/moxiecode/plupload'>PlUpload</a>",
   "require": {
-    "composer/installers": "1.*"
+
   },
   "require-dev": {
-    "composer/installers": "1.*"
+
   },
   "authors": [
     {
@@ -20,9 +20,6 @@
     "psr-4": {
       "Codern\\": "src"
     }
-  },
-  "config": {
-    "vendor-dir": "testinggg"
   }
 
 }
