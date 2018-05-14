@@ -5,5 +5,5 @@
 [![Latest Unstable Version](https://poser.pugx.org/codern/plupload/v/unstable)](https://packagist.org/packages/codern/plupload) 
 [![License](https://poser.pugx.org/codern/plupload/license)](https://packagist.org/packages/codern/plupload)
 
-plupload is a custom implementation of the package  [![moxiecode/plupload]](https://github.com/moxiecode/plupload)
+plupload is a custom implementation of the package  [!moxiecode/plupload](https://github.com/moxiecode/plupload)
 
