@@ -16,6 +16,7 @@ use Exception;
 
 class BigFilesUpload
 {
+    //accepted extensions
     static $acceptedFilesToUpload = array(
         'Text files' => array('txt'),
         'PDF files' => array('pdf'),
@@ -23,11 +24,15 @@ class BigFilesUpload
         'Excel files' => array('xls', 'xlsx'),
         'Image files' => array('jpg', 'jpe', 'jpeg', 'gif', 'bmp', 'png')
     );
-
+    /** !!!!directory is relative with the path
+    // of the file that calls this object
+    //example we call uploadv2.php  the uploads directory will be in the folder that uploadv2 is it in
+    //*/
     static $uploadDirectory = 'uploads';
 
+
     /**
-     *
+     * @return string
      */
     static function getAllowedUploadFileTypesJSON()
     {
@@ -42,6 +47,9 @@ class BigFilesUpload
     }
 
 
+    /**
+     * @return string
+     */
     static function getAllowedUploadFileTypes()
     {
         $extensions = self::$acceptedFilesToUpload;
@@ -207,6 +215,7 @@ class BigFilesUpload
 
             $this->lockTheFile($file_name);
 
+            //logging everything on  error.log in root directory
             $this->log("$file_name received" . ($conf['chunks'] ? ", chunks enabled: {$conf['chunk']} of {$conf['chunks']}" : ''));
 
             // Write file or chunk to appropriate temp location

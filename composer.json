@@ -1,9 +1,8 @@
 {
 
   "name": "codern/plupload",
-  "version": "1.0.0",
-  "description": "implementation of <a href='https://github.com/moxiecode/plupload'>PlUpload</a>",
-  "type": "package",
+  "description": "custom implementation of moxiecode/plupload",
+  "license": "MIT",
   "require": {
 
   },
@@ -21,7 +20,7 @@
   "autoload": {
     "psr-4": {
       "Codern\\": "src"
-
     }
   }
+
 }
