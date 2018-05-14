@@ -30,7 +30,7 @@ plupload is a custom implementation of the package  [![moxiecode/plupload]](http
 
 
 
-## Additional informationage
+## Additional information
 
 1) Documentation of [![moxiecode/plupload]](https://github.com/moxiecode/plupload/wiki)
 
