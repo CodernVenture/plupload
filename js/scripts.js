@@ -8,7 +8,7 @@ function initPlupload(filterMimeTypes){
         runtimes : 'html5,flash,silverlight,html4',
         browse_button : 'pickfiles', // you can pass an id...
         container: document.getElementById('container'), // ... or DOM Element itself
-        url : 'upload.php',
+        url : 'uploadv2.php',
         chunk_size: '1mb',
         //max_file_count: 1,
         flash_swf_url : '../js/Moxie.swf',
@@ -56,7 +56,8 @@ function initPlupload(filterMimeTypes){
 
             UploadComplete: function(up, files){
                 //reload page on upload finish
-                // location.reload();
+                alert('Fisier(e) uploadate , pagina se va reincarca');
+                location.reload();
             }
         }
     });
